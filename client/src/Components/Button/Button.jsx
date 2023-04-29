@@ -40,4 +40,8 @@ Button.propTypes = {
     type: PropTypes.oneOf(["button","submit","reset","checkbox","radio", "range", "image", "color"])
 }
 
+Button.defaultProps = {
+  type: "button",
+};
+
 export default Button;
